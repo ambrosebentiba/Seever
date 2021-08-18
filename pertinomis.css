@@ -1,0 +1,509 @@
+/*
+GENERAL ELEMENTS
+*/
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Rubik', sans-serif;
+}
+
+p, a, span
+{
+    font-size: 2.25vh;
+}
+
+p
+{
+    line-height: 2em;
+}
+
+h2
+{
+    font-size: 4.5vh;
+    font-weight: 400;
+}
+
+h2 > a
+{
+    font-size: 4.5vh;
+    font-weight: 400;
+    text-decoration: none;
+    color: #111111;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+hr
+{
+    margin-left: 1vw;
+}
+
+.more:hover
+{
+    text-decoration: underline;
+}
+
+.h-div h2
+{
+    font-size: 3vh;
+}
+
+/*
+LANDING PAGE
+*/
+
+.landing
+{
+    background-image: url("images/images-pertinomis/fond-pertinomis.jpg");
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.language
+{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 2vh;
+    margin-right: 2vw;
+    color: #EEEEEE;
+}
+
+.language img
+{
+    height: 1.5vh;
+    margin-left: 0.5vw;
+}
+
+.language .lang-elem
+{
+    background-color: rgba(1,1,1,0.5);
+    margin-right: 2vw;
+    padding: 0.75vh 0.75vw;
+    border-radius: 35px;
+}
+
+.landing .baseline
+{
+    color: #EEEEEE;
+    font-size: 2.5vh;
+    margin-left: 10vw;
+    margin-top: 1vh;
+}
+
+.landing .pertinomis-logo
+{
+    width: 60vh;
+    margin-top: 35vh;
+    margin-left: 10vw;
+}
+
+.landing .menu .menu-elem
+{
+    background-color: rgba(1,1,1,0.5);
+    color: #EEEEEE;
+    border-radius: 35px;
+    padding: 12px 30px;
+}
+
+.landing .menu
+{
+    margin: 3vh 35vw;
+}
+
+.landing .menu .menu-elem:hover
+{
+    background-color: rgba(1,1,1,1);
+    text-decoration: underline;
+}
+
+.landing .scroll-arrow
+{
+    width: 3vh;
+    margin: 23vh auto;
+}
+
+/*
+ACTIVITY
+*/
+
+.title-h-div
+{
+    margin-top: 3vh;
+    margin-left: 6.5vw;
+}
+
+.section
+{
+    display: flex;
+    padding: 0 7vw;
+    margin-top: 6vh;
+}
+
+.section > *
+{
+    margin: 0 2vw;
+}
+
+.section .h-div
+{
+    margin-bottom: 5vh;
+}
+
+.section-main
+{
+    margin: auto 0;
+}
+
+.section img
+{
+    height: 26vh;
+}
+
+.health-support-main
+{
+    margin-bottom: 20vh;
+}
+
+/*
+DATA PROTECTION
+*/
+
+.data-protection
+{
+    display: flex;
+    margin-top: 5vh;
+    margin-left: 7vw;
+}
+
+.data-protection-main
+{
+    margin: auto 0;
+}
+
+.data-protection p, .h-div
+{
+    padding-right: 7vw;
+}
+
+.data-protection p
+{
+    margin-top: 3vh;
+    line-height: 4em;
+}
+
+.data-protection img
+{
+    height: 45vh;
+}
+
+/*
+RESSOURCES / CONTACT
+*/
+
+.ress-con
+{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 10vh;
+}
+
+.ress-con .title-h-div
+{
+    margin-left: 3vw;
+}
+
+.ress-con .more
+{
+    color: #EEEEEE;
+    background: #17B617;
+    width: 9vw;
+    padding: 1.5vh 0.5vw;
+    margin: 1vh 0 3vh 17vw;
+    text-align: center;
+    border-radius: 35px;
+}
+
+.ressources
+{
+    display: flex;
+    flex-direction: column;
+    background: #F5F5F5;
+    border-radius: 35px;
+    margin: 3vw;
+    width: 30vw;
+    height: 35vh;
+}
+
+.ressources p
+{
+    margin: 3vh 3vw;
+    line-height: 2em;
+}
+
+.contact
+{
+    display: flex;
+    justify-content: space-around;
+    background: #F5F5F5;
+    border-radius: 35px;
+    margin: 3vw;
+    width: 30vw;
+    height: 35vh;
+}
+
+.contact > *
+{
+    margin:5vh;
+}
+
+.contact img
+{
+    margin-bottom: 3vh;
+    height: 5vh;
+}
+
+.contact .mail
+{
+    display: flex;
+    flex-direction: column;
+    margin: auto 0;
+}
+
+.contact .tel{
+    display: flex;
+    flex-direction: column;
+    margin: auto 0;
+}
+
+/*
+SPONSORS
+*/
+
+.sponsors .h-div
+{
+    margin-left: 6vw;
+}
+
+.sponsors img
+{
+    height: 8vh;
+    margin-bottom: 2vh;
+    margin: 2vh 3vw;
+}
+
+.sponsors-img
+{
+    margin: 7vh 0;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+/*
+FOOTER
+*/
+
+footer
+{
+    background: #062406;
+    display: flex;
+    flex-direction: column;
+}
+
+footer a
+{
+    text-decoration: none;
+    color: #EEEEEE;
+}
+
+footer p
+{
+    color: #EEEEEE;
+    margin: 1vh auto;
+}
+
+.footer-index
+{
+    margin: 1vh auto;
+    font-size: 1.2em;
+    font-weight: 700;
+}
+
+.tree
+{
+    display: flex;
+    margin: 0 auto;
+}
+
+.tree > *
+{
+    margin: 3vh 3vw;
+}
+
+.footer-column-one
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-column-two
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-column-three
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-column-four
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-column > *
+{
+    margin: 1vh auto;
+}
+
+.footer-column :first-child
+{
+    font-size: 1.2em;
+    font-weight: 700;
+}
+
+@media (max-width: 1050px)
+{
+    p
+    {
+        font-size: 0.9em;
+    }
+
+    .h-div h2
+    {
+        font-size: 1em;
+    }
+
+    .title-h-div h2
+    {
+        font-size: 1.5em;
+    }
+
+    .landing
+    {
+        height: 30vh;
+        margin: 0;
+        padding: 0;
+
+    }
+
+    .language span
+    {
+        font-size: 1em;
+    }
+
+    .landing .pertinomis-logo
+    {
+        width: 60vw;
+        margin-top: 7vh;
+    }
+
+    .menu
+    {
+        display: none;
+    }    
+
+    .scroll-arrow
+    {
+        display: none;
+    }
+
+    .container 
+    {
+        width: 100vw;
+    }
+
+    .section img 
+    {
+        display: none;
+    }
+
+    .data-protection img
+    {
+        display: none;
+    }
+
+    .projects
+    {
+        flex-direction: column;
+    }
+
+    .projects .project-section
+    {
+        width: 80vw;
+        margin: 5vh auto;
+    }
+
+    .ress-con .more
+    {
+        width: 40vw;
+        margin: 2vh auto;
+    }
+
+    .ress-con
+    {
+        flex-direction: column;
+    }
+
+    .ressources
+    {
+        width: 80vw;
+        margin: 5vh auto;
+        height: auto;
+    }
+
+    .contact
+    {
+        width: 80vw;
+        padding-top: 2vh;
+        margin: 5vh auto;
+        height: auto;
+    }
+
+    h2 > a
+    {
+        font-size: 1em;
+    }
+
+
+    .contact span 
+    {
+        font-size: 0.8em;
+        margin-bottom: 2vh;
+    }
+
+    .sponsors img
+    {
+        height: 3.5vh;
+    }
+
+    footer > *
+    {
+        font-size: 0.7em;
+    }
+
+    footer a
+    {
+        font-size: 1em;
+    }
+}
