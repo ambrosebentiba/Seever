@@ -107,6 +107,7 @@ LANDING PAGE
 {
     background-color: rgba(1,1,1,0.5);
     color: #EEEEEE;
+    font-size: 1.75em;
     border-radius: 35px;
     padding: 12px 30px;
 }
@@ -126,6 +127,16 @@ LANDING PAGE
 {
     width: 3vh;
     margin: 23vh auto;
+}
+
+/*
+ENJEUX
+*/
+
+.enjeux
+{
+    margin-left: 6.5vw;
+    margin-top: 3vh;
 }
 
 /*
@@ -165,11 +176,6 @@ ACTIVITY
     height: 26vh;
 }
 
-.health-support-main
-{
-    margin-bottom: 20vh;
-}
-
 /*
 DATA PROTECTION
 */
@@ -193,13 +199,13 @@ DATA PROTECTION
 
 .data-protection p
 {
-    margin-top: 3vh;
-    line-height: 4em;
+    margin-top: 1vh;
+    line-height: 2em;
 }
 
 .data-protection img
 {
-    height: 45vh;
+    height: 25vh;
 }
 
 /*

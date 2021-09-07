@@ -1,0 +1,268 @@
+/*
+GENERAL ELEMENTS
+*/
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Rubik', sans-serif;
+}
+
+p, a, span
+{
+    font-size: 2.25vh;
+}
+
+h2
+{
+    font-size: 4.5vh;
+    font-weight: 400;
+}
+
+h2 > a
+{
+    font-size: 4.5vh;
+    font-weight: 400;
+    text-decoration: none;
+    color: #111111;
+}
+
+a
+{
+    text-decoration: none;
+}
+
+hr
+{
+    margin-left: 1vw;
+}
+
+.more
+{
+    color: #EEEEEE;
+    background: #2DA491;
+    width: 9vw;
+    padding: 1.5vh 0.5vw;
+    margin: 1vh 0 3vh 17vw;
+    text-align: center;
+    border-radius: 35px;
+}
+
+.more:hover
+{
+    text-decoration: underline;
+}
+
+/*
+RESSOURCES
+*/
+
+.ressources-logo
+{
+    height: 6vh;
+    margin-left: 2vw;
+    margin-top: 2vh;
+}
+
+.ressources-links
+{
+    margin-top: 3vh;
+    margin-left: 2vw;
+}
+
+.ressources-list
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.ressources-list a
+{
+    margin: 2vh 0;
+}
+
+
+
+/*
+FOOTER
+*/
+footer
+{
+    margin-top: 15%;
+}
+
+footer
+{
+    background: #343F46;
+    display: flex;
+    flex-direction: column;
+}
+
+footer a
+{
+    text-decoration: none;
+    color: #EEEEEE;
+}
+
+footer p
+{
+    color: #EEEEEE;
+    margin: 1vh auto;
+}
+
+.footer-index
+{
+    margin: 1vh auto;
+    font-size: 1.2em;
+    font-weight: 700;
+}
+
+.tree
+{
+    display: flex;
+    margin: 0 auto;
+}
+
+.tree > *
+{
+    margin: 3vh 3vw;
+}
+
+.footer-column-one
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-column-two
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-column-three
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-column-four
+{
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-column > *
+{
+    margin: 1vh auto;
+}
+
+.footer-column :first-child
+{
+    font-size: 1.2em;
+    font-weight: 700;
+}
+
+/*
+MEDIA QUERIES 
+*/
+
+@media (max-width: 1050px)
+{
+    p
+    {
+        font-size: 0.9em;
+    }
+
+    .landing
+    {
+        height: 30vh;
+        margin: 0;
+        padding: 0;
+
+    }
+
+    .language span
+    {
+        font-size: 1em;
+    }
+
+    .landing .seever-logo
+    {
+        width: 60vw;
+        margin-top: 7vh;
+    }
+
+    .menu
+    {
+        display: none;
+    }    
+
+    .scroll-arrow
+    {
+        display: none;
+    }
+
+    .activity img
+    {
+        display: none;
+    }
+
+    .projects
+    {
+        flex-direction: column;
+    }
+
+    .projects .project-section
+    {
+        width: 80vw;
+        margin: 5vh auto;
+    }
+
+    .more
+    {
+        width: 40vw;
+        margin: 2vh auto;
+    }
+
+    .ress-con
+    {
+        flex-direction: column;
+    }
+
+    .ressources
+    {
+        width: 80vw;
+        margin: 5vh auto;
+        height: auto;
+    }
+
+    .contact
+    {
+        width: 80vw;
+        margin: 5vh auto;
+        height: auto;
+    }
+
+
+    .contact span 
+    {
+        font-size: 0.8em;
+        margin-bottom: 2vh;
+    }
+
+    .sponsors img
+    {
+        height: 3.5vh;
+    }
+
+    footer > *
+    {
+        font-size: 0.7em;
+    }
+
+    footer a
+    {
+        font-size: 1em;
+    }
+}

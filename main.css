@@ -162,7 +162,7 @@ ACTIVITY SECTION
 
 .container .activity .activity-p
 {
-    line-height: 3em;
+    line-height: 2.2em;
 }
 
 /*
@@ -185,7 +185,6 @@ PROJECTS SECTION
     justify-content: space-around;
     flex-wrap: wrap;
 }
-
 
 .projects .project-section
 {
@@ -475,3 +474,4 @@ MEDIA QUERIES
         font-size: 1em;
     }
 }
+
